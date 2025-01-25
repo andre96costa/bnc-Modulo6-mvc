@@ -59,6 +59,9 @@ class Alert extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.alert');
+        return function (array $data) {
+            $data['title'] = 'Andrezao';
+            return "components.alert";
+        };
     }
 }
