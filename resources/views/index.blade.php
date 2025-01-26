@@ -24,6 +24,8 @@
             <x-button andre="costa"></x-button>
         </x-alert>
 
+        <img src="{{ Vite::images('image1.jpg')}}" alt="dasd">
+
         
 
         @datetime(now());
